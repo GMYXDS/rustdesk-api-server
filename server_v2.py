@@ -323,7 +323,7 @@ async def api_reg(request):
     md5_pass = get_md5(password+"rustdesk")
     
     app = Sanic.get_app()
-    check_nums = await app.ctx.poolmysqlasync.check_num_rows('rustdesk.rustdesk_users','username',username)
+    check_nums = await app.ctx.poolmysqlasync.check_num_rows('rustdesk_v2.rustdesk_users','username',username)
     if check_nums >= 1:
         return json({ "code":99,"msg": "注册失败!用户名重复！" })
     
