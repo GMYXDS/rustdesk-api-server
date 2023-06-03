@@ -166,6 +166,11 @@ sudo systemctl enable rustdesk_api
 - 感谢rustdesk的开发者和维护者，给我们带来如此好的项目
 - 此项目只是一个简单的api实现，如有商业需求欢迎咨询官方人员
 
+## todo
+
+- [ ] 支持sqllite数据库
+- [ ] 支持docker部署
+
 ## 赞助
 
 <img src="https://mss.gmyxds.fun/img/donate.png" alt="donate" style="zoom: 50%;" />
