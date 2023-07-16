@@ -75,7 +75,7 @@ python server_v2.py
 
 否则中间的`中继服务器` 和`api 服务器`可以留空，程序会自行填充
 
-![api](https://mss.gmyxds.fun/img/rustdesk_api_1.png)
+![api](https://mss.gmyxds.cn/img/rustdesk_api_1.png)
 
 安卓端不需要填写 `http://` 前缀 且必须为 `21114` 端口
 
@@ -173,4 +173,4 @@ sudo systemctl enable rustdesk_api
 
 ## 赞助
 
-<img src="https://mss.gmyxds.fun/img/donate.png" alt="donate" style="zoom: 50%;" />
+<img src="https://mss.gmyxds.cn/img/donate.png" alt="donate" style="zoom: 50%;" />
